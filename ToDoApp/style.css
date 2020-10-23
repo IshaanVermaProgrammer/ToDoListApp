@@ -1,0 +1,12 @@
+input,#button{width:50%;height: 52px;font-family: 'PT Sans', sans-serif;font-size:30px;}
+body{background-color: purple;color: white;}
+#button{width: 8%;color: white;background-color: dodgerblue;border-radius: 7px;}
+h1{
+    list-style: none;background:white;color: black;width:90%;height:60px;border-radius: 10px;padding-top: 30px;
+    font-family:'PT Sans', sans-serif;font-weight: normal;
+}
+h1 button{background-color: red;color: white;font-family: 'PT Sans', sans-serif;border-radius: 5px;
+}
+@media (max-width:600px){
+  #button{width:150px;}
+}
